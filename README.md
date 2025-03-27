@@ -29,7 +29,9 @@ while True:
             ack=c.recv(1024).decode() 
             if ack: 
                 print(ack) 
-                i+=s 
+                i+=s
+```
+```
 SERVER
  
 import socket 
